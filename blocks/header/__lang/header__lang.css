@@ -1,0 +1,14 @@
+.header__lang {
+  display: inline-block;
+  margin-right: 18px;
+}
+
+.header__lang:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 375px) {
+  .header__lang {
+    margin-right: 16px;
+  }
+}

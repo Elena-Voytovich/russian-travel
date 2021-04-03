@@ -1,0 +1,10 @@
+.lead {
+  max-width: 985px;
+  margin: 0 auto 80px;
+}
+
+@media (max-width: 375px) {
+  .lead {
+    margin-bottom: 64px;
+  }
+}
