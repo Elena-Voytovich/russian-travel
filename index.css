@@ -1,3 +1,9 @@
+@import url('fonts/fonts.css');
+@import url('blocks/page/page.css');
+@import url('blocks/page/__margin/page__margin.css');
+
+@import url('blocks/link/link.css');
+
 @import url('blocks/header/header.css');
 @import url('blocks/header/__logo/header__logo.css');
 @import url('blocks/header/__lang-container/header__lang-container.css');
@@ -42,63 +48,3 @@
 @import url('blocks/footer/__link/footer__link.css');
 @import url('blocks/footer/__links/footer__links.css');
 @import url('blocks/footer/__item/footer__item.css');
-
-@import url('blocks/link/link.css');
-
-@import url('blocks/page/page.css');
-@import url('blocks/page/__margin/page__margin.css');
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("./fonts/Inter-Regular.woff2") format("woff2"),
-       url("./fonts/Inter-Regular.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url("./fonts/Inter-Medium.woff2") format("woff2"),
-       url("./fonts/Inter-Medium.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url("./fonts/Inter-Bold.woff2") format("woff2"),
-       url("./fonts/Inter-Bold.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url("./fonts/Inter-Black.woff2") format("woff2"),
-       url("./fonts/Inter-Black.woff") format("woff");
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*, *::after, *::before {
-  box-sizing: inherit;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
