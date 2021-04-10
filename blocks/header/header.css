@@ -3,11 +3,24 @@
   justify-content: space-between;
   align-items: flex-end;
   padding-top: 27px;
-  margin: 0 auto 58px;
+  margin: 28px auto 48px;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 0 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0 24px;
+  }
 }
 
 @media (max-width: 425px) {
   .header {
-    padding-top: 16px;
+    margin-top: 16px;
+    padding: 0 16px;
   }
 }

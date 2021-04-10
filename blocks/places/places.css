@@ -1,23 +1,24 @@
 .places {
-  margin: 0 auto 106px;
+  margin: 0 auto 92px;
   max-width: 984px;
 }
 
 @media (max-width: 1024px) {
   .places {
-    margin: 0 48px 106px;
+    margin-right: 48px;
   }
 } 
 
 @media (max-width: 768px) {
   .places {
-    margin: 0 24px 106px;
+    margin-right: 24px;
   }
 }
 
 @media (max-width: 425px) {
   .places {
     width: 100%;
-    margin: 0 0 64px;
+    margin-right: 0;
+    margin-bottom: 64px;
   }
 }
