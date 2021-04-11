@@ -3,18 +3,6 @@
   max-width: 984px;
 }
 
-@media (max-width: 1024px) {
-  .places {
-    margin-right: 48px;
-  }
-} 
-
-@media (max-width: 768px) {
-  .places {
-    margin-right: 24px;
-  }
-}
-
 @media (max-width: 425px) {
   .places {
     width: 100%;

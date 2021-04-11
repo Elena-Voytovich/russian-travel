@@ -18,6 +18,6 @@
 
 @media (max-width: 320px) {
   .intro {
-    margin-bottom: 64px;
+    padding: 0 16px;
   }
 }
