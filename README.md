@@ -1,1 +1,3 @@
-https://elena-voytovich.github.io/russian-travel/
+Travel landing page
+
+https://rus-travel-project.netlify.app/
